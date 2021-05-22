@@ -17,5 +17,5 @@ if [[ $EUID == 0 ]]; then
 	./build.sh
 
 else
-	echo "Please run sudo"
+	echo "Please run with sudo"
 fi
