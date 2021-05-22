@@ -18,10 +18,6 @@ if [[ $EUID = 0 ]]; then
 
 	./build.sh
 
-	cd ../cpuminer
-
-	cd ../cpuminer-opt
-
 else
 	echo "Please run with sudo"
 fi
